@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: linear-gradient(210deg, #5020db, #ff1f8c, #ffb200);
+}
+
+div {
+  height: 81px;
+  padding: 1px 54px;
+  font-weight: 800;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  font-size: 21px;
+  animation: idleBtn 5s ease-in-out infinite;
+}
+
+a {
+  text-decoration: none;
+}
